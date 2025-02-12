@@ -5,6 +5,49 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Removes underline from links */
+
+li > a{
+  text-decoration: none;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+button{
+  padding: 10px;
+}
+
+a{
+  color: gray;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
 }
 
 img {
